@@ -36,29 +36,29 @@ struct ListNode* createList() {
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 	struct ListNode* p;
 	struct ListNode* q;
-	p=l1;
-    q=l2;
-	int sum1=0,sum2=0,sum3=0;
-	int l1_num= 0, l2_num= 0;
-	int count1 = 0,count2 = 0;
-	while (p!= NULL)
+	p = l1;
+	q = l2;
+	int sum1 = 0, sum2 = 0, sum3 = 0;
+	int l1_num = 0, l2_num = 0;
+	int count1 = 0, count2 = 0;
+	while (p != NULL)
 	{
-		sum1+=p->val* (int)pow(10,count1);
+		sum1 += p->val * (int)pow(10, count1);
 		count1++;
 		p = p->next;
 	}
-	while (q!= NULL)
+	while (q != NULL)
 	{
-		sum2 += q->val * (int)pow(10,count2);
+		sum2 += q->val * (int)pow(10, count2);
 		count2++;
-		q= q->next;
+		q = q->next;
 	}
 	sum3 = sum1 + sum2;
 	struct ListNode* head = NULL;
 	struct ListNode* tail = NULL;
-	while (sum3>0) {
+	while (sum3 > 0) {
 		struct ListNode* newNode = (struct ListNode*)malloc(sizeof(struct ListNode));
-		newNode->val = sum3%10;
+		newNode->val = sum3 % 10;
 		newNode->next = NULL;
 		if (head == NULL) {
 			head = newNode;
