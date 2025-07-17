@@ -6,10 +6,10 @@ The recurrence relation for Pascal's Triangle is:
 
 - T(i, j) = T(i - 1, j) + T(i - 1, j - 1), for j > 0 and j < i  
 - T(i, j) = 1, if j == 0 or j == i
-
-<br><br> 
+ 
+Schematic diagram:
 ![schematic diagram](https://github.com/kailee0422/LeetCode-Practice/blob/main/Dynamic%20Programming/118.%20Pascal's%20Triangle/schematic%20diagram.png)
-<br><br>
+
 
 
 ## Tips
