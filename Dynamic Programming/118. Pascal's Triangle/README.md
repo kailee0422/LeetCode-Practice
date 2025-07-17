@@ -8,7 +8,6 @@ The recurrence relation for Pascal's Triangle is:
 - T(i, j) = 1, if j == 0 or j == i
 
 ![Uploading 螢幕擷取畫面 2025-07-17 092209.png…]()
-<img width="406" height="402" alt="螢幕擷取畫面 2025-07-17 092209" src="https://github.com/user-attachments/assets/9cec70a6-0fc6-4fec-b4a8-a4cce0cb4235" />
 
 
 ## Tips
