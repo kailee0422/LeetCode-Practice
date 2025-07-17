@@ -9,7 +9,7 @@ The recurrence relation for Pascal's Triangle is:
  
 Schematic diagram:
 <br>
-<img src="https://github.com/kailee0422/LeetCode-Practice/blob/main/Dynamic%20Programming/118.%20Pascal's%20Triangle/schematic%20diagram.png?raw=true" alt="schematic diagram" width="400"/>
+<img src="https://github.com/kailee0422/LeetCode-Practice/blob/main/Dynamic%20Programming/118.%20Pascal's%20Triangle/schematic%20diagram.png?raw=true" alt="schematic diagram" width="200"/>
 
 
 
