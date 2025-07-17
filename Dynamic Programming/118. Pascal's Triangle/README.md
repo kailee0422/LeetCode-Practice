@@ -31,7 +31,7 @@ for (int i = 0; i < numOfRow; i++) {
     array[i] = (int*)malloc(sizeof(int) * numOfCol);
 }
 ```
-#### Free 
+#### Free memory
 **1-D array:**
 ```c
 free(array);
