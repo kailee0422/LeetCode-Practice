@@ -8,6 +8,7 @@ The recurrence relation for Pascal's Triangle is:
 - T(i, j) = 1, if j == 0 or j == i
  
 Schematic diagram:
+<br>
 ![schematic diagram](https://github.com/kailee0422/LeetCode-Practice/blob/main/Dynamic%20Programming/118.%20Pascal's%20Triangle/schematic%20diagram.png)
 
 
