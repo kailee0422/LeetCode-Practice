@@ -1,4 +1,5 @@
 # C++ Hash Table
+<img width="1822" height="2051" alt="image" src="https://github.com/user-attachments/assets/710467c3-7554-44b7-aecd-823fe17ad6b4" />
 
 This guide explains how to use hash tables in C++ with `unordered_map` and `unordered_set` from the STL.
 
