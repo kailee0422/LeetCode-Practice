@@ -1,6 +1,9 @@
 # C++ Hash Table
 
+This guide explains how to use hash tables in C++ with `unordered_map` and `unordered_set` from the STL.
+
 ## Package
+Include these headers to use hash maps and sets:
 ```cpp
 #include <unordered_map>
 #include <unordered_set>
@@ -9,24 +12,27 @@
 ## Hash Map `<unordered_map>`
 
 ### Data Structure
-A hash map stores key-value pairs. In C++:
+A hash map stores key-value pairs with unique keys.
 ```cpp
 std::unordered_map<std::string, int> umap;
 ```
-This means a `std::string` key mapped to an `int` value.
+This declares a hash map from `std::string` to `int`.
 
 ### Initialize
+You can assign values to keys like this:
 ```cpp
 umap[key] = value;
-// If key does not exist, umap[key] is initialized to 0
+// If the key does not exist, umap[key] is initialized to 0
 ```
 
 ### Erase
+Remove an element by key:
 ```cpp
 umap.erase("key");
 ```
 
 ### Loop
+Iterate over all key-value pairs:
 ```cpp
 for (const auto& n : umap) {
     std::cout << "key: " << n.first << ", value: " << n.second << "\n";
@@ -34,35 +40,41 @@ for (const auto& n : umap) {
 ```
 
 ### Clear
+Remove all elements:
 ```cpp
 umap.clear();
 ```
 
 ### Condition
+Check if a key exists:
 ```cpp
 if (umap.find(value_you_want_to_search) == umap.end()) {
-    // Value not found
+    // Key not found
 }
 ```
 
 ## Hash Set `<unordered_set>`
 
 ### Declare
+A hash set stores unique values:
 ```cpp
 std::unordered_set<int> myunordered_set{1, 2, 3, 4, 5};
 ```
 
 ### Insert
+Add a value to the set:
 ```cpp
 myunordered_set.insert(value);
 ```
 
 ### Erase
+Remove a value:
 ```cpp
 myunordered_set.erase(value);
 ```
 
 ### Loop
+Iterate through all values:
 ```cpp
 for (const auto& n : myunordered_set) {
     std::cout << "value: " << n << "\n";
@@ -70,8 +82,9 @@ for (const auto& n : myunordered_set) {
 ```
 
 ### Condition
+Check if a value exists:
 ```cpp
 if (myunordered_set.count(value)) {
-    // Value exists in set
+    // Value exists in the set
 }
 ```
