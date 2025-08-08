@@ -1,7 +1,7 @@
 # C++ Hash Table
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ Logo" width="100"/>
 
 This guide explains how to use hash tables in C++ with `unordered_map` and `unordered_set` from the STL.
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ Logo" width="100"/>
 
 ## Package
 Include these headers to use hash maps and sets:
